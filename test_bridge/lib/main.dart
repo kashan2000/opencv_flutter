@@ -8,13 +8,13 @@ import 'detection/video_player.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
-    name: "pathfinder",
+    name: "",
     /// Add support for multiple platforms later
     options: const FirebaseOptions(
-      apiKey: 'AIzaSyAYTcquL_OQAZv18AAdorrEIPqxGLMgrF4',
-      appId: '1:318338551652:android:01379f11ea447c492f7471',
-      messagingSenderId: '318338551652',
-      projectId: 'pathfinder-1fb80',
+      apiKey: '',
+      appId: '1::android:',
+      messagingSenderId: '',
+      projectId: '-1fb80',
     ),
   );
   runApp(const MyApp());
